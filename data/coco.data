@@ -1,0 +1,6 @@
+classes=80
+train=datasets/coco/train.txt
+valid=datasets/coco/val.txt
+names=data/coco.names
+backup=backup/
+eval=coco

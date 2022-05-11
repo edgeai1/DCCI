@@ -1,0 +1,6 @@
+classes=20
+train=/home/youbing/workspace/yolo_datasets/voc0712/trains.txt
+valid=/home/youbing/workspace/yolo_datasets/voc0712/tests.txt
+names=data/voc.names
+backup=backup/
+eval=coco
