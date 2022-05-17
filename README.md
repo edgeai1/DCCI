@@ -3,11 +3,12 @@ Content-Aware Adaptive Device-Cloud Collaborative Inference for Object Detection
 
 ## Dependencies
 There are some dependencies for running this
-1. python >=3.6
+1. python3
 2. pytorch
 3. torchvision
 4. zeromq
 5. fvcore
+
 
 
 ## How to compress large models
