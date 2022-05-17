@@ -3,9 +3,11 @@ Content-Aware Adaptive Device-Cloud Collaborative Inference for Object Detection
 
 ## Dependencies
 There are some dependencies for running this
-1. python >= 3.6
-2. pytorch >= 1.7
-3. torchvision >= 0.19
+1. python >=3.6
+2. pytorch
+3. torchvision
+4. zeromq
+5. fvcore
 
 
 ## How to compress large models
@@ -30,3 +32,7 @@ python layer_prune.py --cfg cfg/light_weight_channel.cfg --data data/voc.data --
 ```azure
 python train.py --cfg cfg/light_weight_layer.cfg --data data/voc.data --weights weights/light_weight_layer.weights --epochs 100 --batch-size 32
 ```
+
+
+## Run End-to-end
+We give an example of an end-to-end test under examples. The end_to_end_test file is used to test the end-to-end accuracy. The partition_datasets file is used to partition datasets into hard and simple cases. detect_client is deployed to IoT devices and detect_server is deployed to the cloud.
