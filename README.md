@@ -35,5 +35,10 @@ python train.py --cfg cfg/light_weight_layer.cfg --data data/voc.data --weights 
 ```
 
 
-## Run End-to-end
+## Run end-to-end
 We give an example of an end-to-end test under examples. The end_to_end_test file is used to test the end-to-end accuracy. The partition_datasets file is used to partition datasets into hard and simple cases. detect_client is deployed to IoT devices and detect_server is deployed to the cloud.
+
+
+## The weight model can be obtained here
+link：https://pan.baidu.com/s/19gVlej3ZkRVxn-n6uVMpPQ 
+password：lar5
